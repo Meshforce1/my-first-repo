@@ -25,3 +25,6 @@ public class Dog {
         dog2.bark();  // Output: Poodle is barking!
     }
 }
+void main{
+    dog.bark();
+}
