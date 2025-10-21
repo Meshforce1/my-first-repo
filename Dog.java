@@ -21,8 +21,14 @@ public class Dog {
         dog2.age = 2;
         dog2.color = "White";
 
+        Dog dog3 = new Dog();
+        dog3.breed = "Helicopter";
+        dog3.age = 47;
+        dog3.color = "Purple";
+
         dog1.bark();  // Output: Labrador is barking!
         dog2.bark();  // Output: Poodle is barking!
+        dog3.bark();  // Output: Helicopter is barking!!!
     }
 }
 void main{
